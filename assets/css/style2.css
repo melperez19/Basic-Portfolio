@@ -1,46 +1,11 @@
    .image_row1 {
-    margin-left: 30px;
     display: flex;
+    flex-wrap: wrap;
     }
 
-   .top-left {
-    position: absolute;
-    flex: 33.33%;
-    padding: 5px;
-   }
-
-   .top-middle  {
+   .portfolio_image {
     position: relative;
-    flex: 33.33%;
-    padding: 5px;
-   }
-
-   .top-right  {
-    position: relative;
-    flex: 33.33%;
-    padding: 5px;
-   }
-
-   .image_row2 {
-    margin-left: 30px;
-    display: flex;
-}
-   .bottom-left {
-    position: absolute;
-    flex: 33.33%;
-    padding: 5px;
-   }
-
-   .bottom-middle {
-    position: relative;
-    flex: 33.33%;
-    padding: 5px;
-   }
-
-   .bottom-right  {
-    position: relative;
-    flex: 33.33%;
-    padding: 5px;
+    margin: 10px;
    }
 
    .section_title {
@@ -65,5 +30,18 @@ section {
     margin-bottom: 140px;
     resize: vertical;
     background-color: #ffffff;
+}
+
+.text_overlay {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
 }
    

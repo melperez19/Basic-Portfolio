@@ -62,7 +62,9 @@ h2 {
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: sticky;
     bottom: 0;
     width: 100vw;
